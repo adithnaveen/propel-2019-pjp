@@ -22,14 +22,14 @@
 		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
 		document.getElementsByTagName('head')[0].appendChild(link);
 	</script>
-</head>   
+</head>
 
 <body>
-	<div class="reveal"> 
+	<div class="reveal">
 		<div class="slides">
 			<section>
 				<p>
-  <code>
+					<code>
 1.	Read this piece of code carefully    <br /> 
 if("String".toString() == "String") <br /> 
 System.out.println("Equal"); <br /> 
@@ -38,7 +38,7 @@ System.out.println("Not Equal"); <br />
 (Choose correct one from multiple below)
 
 </code>
-</p>
+				</p>
 				<hr>
 				<p class="fragment fade-in" data-fragment-index="1">a. the code will compile an print "Equal".</p>
 				<p class="fragment fade-in" data-fragment-index="2">b. the code will compile an print "Not Equal". </p>
@@ -50,10 +50,15 @@ System.out.println("Not Equal"); <br />
 					a. the code will compile an print "Equal".
 				</p>
 			</section>
- 
+
+
+
+
 			<section>
 				<p style="text-align: left; font-size: 30px;">
-  <code>
+					<code>
+
+
 2. public class AQuestion{  <br>
 	private int i = j;  <br>
 	private int j = 10;  <br>
@@ -65,7 +70,7 @@ System.out.println("Not Equal"); <br />
 
 
 </code>
-</p>
+				</p>
 				<hr>
 				<p class="fragment fade-in" data-fragment-index="1">a. 10</p>
 				<p class="fragment fade-in" data-fragment-index="2">b. Comiplation error</p>
@@ -78,16 +83,16 @@ System.out.println("Not Equal"); <br />
 				</p>
 			</section>
 
- 
 
 
 
 
-  
+
+
 			<section>
 				<h5>3. A String Class
 					(Choose correct one from multiple below)
-					</h5>
+				</h5>
 				<hr>
 				<p class="fragment fade-in" data-fragment-index="1">a. final</p>
 				<p class="fragment fade-in" data-fragment-index="2">b. non final </p>
@@ -105,19 +110,21 @@ System.out.println("Not Equal"); <br />
 
 			<section>
 				<h5>
-					
-					4.	What are the functions of the dot(.) operator?
+
+					4. What are the functions of the dot(.) operator?
 				</h5>
 				<hr>
-				<p class="fragment fade-in" data-fragment-index="1">a. It enables you to access instance variables of any objects within a class</p>
-				<p class="fragment fade-in" data-fragment-index="2">b. It enables you to store values in instance variables of an object</p>
+				<p class="fragment fade-in" data-fragment-index="1">a. It enables you to access instance variables of
+					any objects within a class</p>
+				<p class="fragment fade-in" data-fragment-index="2">b. It enables you to store values in instance
+					variables of an object</p>
 				<p class="fragment fade-in" data-fragment-index="3">c. It is used to call object methods </p>
 				<p class="fragment fade-in" data-fragment-index="4">d. It is to create a new object</p>
 			</section>
 			<section>
 				<p class="fragment highlight-green">
-					c. It is used to call object methods 
-                </p>
+					c. It is used to call object methods
+				</p>
 			</section>
 
 			<section>
@@ -130,11 +137,11 @@ System.out.println("Not Equal"); <br />
 			</section>
 			<section>
 				<p class="fragment highlight-green">
-                    b. JDK 1.5
-                </p>
+					b. JDK 1.5
+				</p>
 			</section>
 
-  
+
 		</div>
 	</div>
 
@@ -149,19 +156,19 @@ System.out.println("Not Equal"); <br />
 			transition: 'concave',
 			progress: true,
 			dependencies: [{
-					src: 'plugin/markdown/marked.js'
-				},
-				{
-					src: 'plugin/markdown/markdown.js'
-				},
-				{
-					src: 'plugin/notes/notes.js',
-					async: true
-				},
-				{
-					src: 'plugin/highlight/highlight.js',
-					async: true
-				}
+				src: 'plugin/markdown/marked.js'
+			},
+			{
+				src: 'plugin/markdown/markdown.js'
+			},
+			{
+				src: 'plugin/notes/notes.js',
+				async: true
+			},
+			{
+				src: 'plugin/highlight/highlight.js',
+				async: true
+			}
 			]
 		});
 	</script>
