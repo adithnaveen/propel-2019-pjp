@@ -25,32 +25,83 @@
 </head>  
 
 
+
 <body>
 	<div class="reveal">
 		<div class="slides">
 			<section>
-				<p>
-					<code>
-1.	Read this piece of code carefully    <br /> 
-if("String".toString() == "String") <br /> 
-System.out.println("Equal"); <br /> 
-		else <br /> 
-System.out.println("Not Equal"); <br /> 
-(Choose correct one from multiple below)
-
-</code>
-				</p>
+		
+				<h5>
+					1.	Which of the following describes the correct sequence of the steps involved in making a connection with a database. <br> 
+					1. Loading the driver <br >
+					2. Process the results. <br >
+					3. Making the connection with the database. <br >
+					4. Executing the SQL statements.
+				</h5>
 				<hr>
-				<p class="fragment fade-in" data-fragment-index="1">a. the code will compile an print "Equal".</p>
-				<p class="fragment fade-in" data-fragment-index="2">b. the code will compile an print "Not Equal". </p>
-				<p class="fragment fade-in" data-fragment-index="3">c. Not Compile</p>
-				<p class="fragment fade-in" data-fragment-index="4">d. None</p>
+				<p class="fragment fade-in" data-fragment-index="1">a. 1,2,3,4 </p>
+				<p class="fragment fade-in" data-fragment-index="2">b. 1,3,4,2  </p>
+				<p class="fragment fade-in" data-fragment-index="3">c. 1,4,2,3 </p>
+				<p class="fragment fade-in" data-fragment-index="4">d. 4,1,2,3</p>
+				<p class="fragment fade-in" data-fragment-index="4">e. 1,4,3,2</p>
 			</section>
 			<section class="framgment fade-in">
 				<p class="fragment highlight-green">
-					a. the code will compile an print "Equal".
+					b. 1,3,4,2  
 				</p>
 			</section>
+
+			<section>
+		
+				<h5>
+					2.	Which of the following is a Class?				
+				</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">a. java.sql.Connection</p>
+				<p class="fragment fade-in" data-fragment-index="2">b. java.sql.DriverManager  </p>
+				<p class="fragment fade-in" data-fragment-index="3">c. java.lang.Runnable</p>
+				<p class="fragment fade-in" data-fragment-index="4">d. java.lang.Cloneable</p>
+			</section>
+			<section class="framgment fade-in">
+				<p class="fragment highlight-green">
+					b. java.sql.DriverManager  
+				</p>
+			</section>
+
+			
+
+
+			<section>
+				<h5>3. 
+
+
+					Which three are methods of the Object class? 
+					notify(); 
+					notifyAll(); 
+					isInterrupted(); 
+					synchronized(); 
+					interrupt(); 
+					wait(long msecs); 
+					sleep(long msecs); 
+					yield(); 
+					
+					 
+					
+					
+				</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">a. 1,2,4</p>
+				<p class="fragment fade-in" data-fragment-index="2">b. 2,4,5</p>
+				<p class="fragment fade-in" data-fragment-index="3">c. 1,2,6</p>
+				<p class="fragment fade-in" data-fragment-index="4">d. 2,3,4</p>
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+					c. 1,2,6
+				</p>
+			</section>
+
+
 
 
 
@@ -58,87 +109,43 @@ System.out.println("Not Equal"); <br />
 			<section>
 				<p style="text-align: left; font-size: 30px;">
 					<code>
-
-
-2. public class AQuestion{  <br>
-	private int i = j;  <br>
-	private int j = 10;  <br>
-	public static void main(String args[]){  <br>
-		System.out.println((new AQuestion()).i);  <br>
-	} <br>
-} <br>
-(Choose correct one from multiple below)
+4. class X implements Runnable 
+{ 
+    public static void main(String args[]) 
+    {
+        /* Missing code? */
+    } 
+    public void run() {} 
+}
 
 
 </code>
-				</p>
+Which of the following line of code is suitable to start a thread ? 
+</p>
 				<hr>
-				<p class="fragment fade-in" data-fragment-index="1">a. 10</p>
-				<p class="fragment fade-in" data-fragment-index="2">b. Comiplation error</p>
-				<p class="fragment fade-in" data-fragment-index="3">c. 0</p>
-				<p class="fragment fade-in" data-fragment-index="4">d. None </p>
+				<p class="fragment fade-in" data-fragment-index="1">a. Thread t = new Thread(X);</p>
+				<p class="fragment fade-in" data-fragment-index="2">b. Thread t = new Thread(X); t.start();</p>
+				<p class="fragment fade-in" data-fragment-index="3">c. Thread t = new Thread(new X()); t.start();</p>
+				<p class="fragment fade-in" data-fragment-index="4">d. Thread t = new Thread(); x.run(); </p>
 			</section>
 			<section class="framgment fade-in">
 				<p class="fragment highlight-green">
-					b. Comiplation error
+					c. Thread t = new Thread(new X()); t.start();
 				</p>
 			</section>
-
-
-
-
-
-
-
+ 
+ 
 			<section>
-				<h5>3. A String Class
-					(Choose correct one from multiple below)
-				</h5>
+				<h5>5. What is the name of the abstract base class for streams dealing with general purpose (non-character) input?</h5>
 				<hr>
-				<p class="fragment fade-in" data-fragment-index="1">a. final</p>
-				<p class="fragment fade-in" data-fragment-index="2">b. non final </p>
-				<p class="fragment fade-in" data-fragment-index="3">c. Serializable</p>
-				<p class="fragment fade-in" data-fragment-index="4">d. a and c </p>
+				<p class="fragment fade-in" data-fragment-index="1">a. InputStream</p>
+				<p class="fragment fade-in" data-fragment-index="2">b. OutputStream</p>
+				<p class="fragment fade-in" data-fragment-index="3">c. Reader</p>
+				<p class="fragment fade-in" data-fragment-index="4">d. Writer</p>
 			</section>
 			<section>
 				<p class="fragment highlight-green">
-					d. a and c ( final and Serializable )
-				</p>
-			</section>
-
-
-
-
-			<section>
-				<h5>
-
-					4. What are the functions of the dot(.) operator?
-				</h5>
-				<hr>
-				<p class="fragment fade-in" data-fragment-index="1">a. It enables you to access instance variables of
-					any objects within a class</p>
-				<p class="fragment fade-in" data-fragment-index="2">b. It enables you to store values in instance
-					variables of an object</p>
-				<p class="fragment fade-in" data-fragment-index="3">c. It is used to call object methods </p>
-				<p class="fragment fade-in" data-fragment-index="4">d. It is to create a new object</p>
-			</section>
-			<section>
-				<p class="fragment highlight-green">
-					c. It is used to call object methods
-				</p>
-			</section>
-
-			<section>
-				<h5>5. Which version of java was called as Mustang </h5>
-				<hr>
-				<p class="fragment fade-in" data-fragment-index="1">a. JDK 1.6</p>
-				<p class="fragment fade-in" data-fragment-index="2">b. JDK 1.5</p>
-				<p class="fragment fade-in" data-fragment-index="3">c. J2SDK 1.4</p>
-				<p class="fragment fade-in" data-fragment-index="4">d. JDK 1.1</p>
-			</section>
-			<section>
-				<p class="fragment highlight-green">
-					a. JDK 1.6
+					a. InputStream
 				</p>
 			</section>
 
@@ -174,5 +181,6 @@ System.out.println("Not Equal"); <br />
 		});
 	</script>
 </body>
+
 
 </html>
